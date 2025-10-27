@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    padding: 1em;
+}
+
+.header--title2 {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-weight: lighter;
+}
+
+.header--title1 {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+}
+
+.header--paragraph {
+    font-size: 1.5em;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    width: 23em;
+    color: gray;
+}
+
+.card {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    border: solid;
+    padding: 2em 2em;
+    border-radius: 1em;
+    width: 35em;
+}
+
+.supervisor-title {
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 0.5em 0;
+    text-align: left;
+}
+
+.supervisor-paragraph {
+    color: gray;
+    font-size: 1.5em;
+}
+
+.supervisor-img {
+    display: flex;
+    width: 5em;
+    height: 5em;
+}
+
+.card {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    border: solid;
+    padding: 2em 2em;
+    border-radius: 1em;
+    width: 35em;
+}
+
+.team__builder--title {
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 0.5em 0;
+    text-align: left;
+}
+
+.team__builder--paragraph {
+    color: gray;
+    font-size: 1.5em;
+}
+
+.team__builder--img {
+    display: flex;
+    width: 5em;
+    height: 5em;
+}
+
+.card {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    border: solid;
+    padding: 2em 2em;
+    border-radius: 1em;
+
+    width: 35em;
+}
+
+.karma--title {
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 0.5em 0;
+    text-align: left;
+}
+
+.karma--paragraph {
+    color: gray;
+    font-size: 1.5em;
+}
+
+.karma--img {
+    display: flex;
+    width: 5em;
+    height: 5em;
+}
+
+.card {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    border: solid;
+    padding: 2em 2em;
+
+    width: 35em;
+    border-radius: 1em;
+}
+
+.calculator--title {
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 0.5em 0;
+    text-align: left;
+}
+
+.calculator--paragraph {
+    color: gray;
+    font-size: 1.5em;
+}
+
+.calculator--img {
+    display: flex;
+    width: 5em;
+    height: 5em;
+}
+
+@media (min-width:1024px) {
+    header {
+        font-size: 2em;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 2em;
+    }
+
+
+    .supervisor {
+        padding: 9em 1em;
+    }
+
+    .cener__div {
+        display: flex;
+        flex-direction: column;
+        padding: 9em 1em;
+        margin-bottom: 1em;
+    }
+
+    .calculator {
+        padding: 9em 1em;
+    }
+}
